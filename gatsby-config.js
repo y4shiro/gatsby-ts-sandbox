@@ -2,5 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "gatsby-ts-sandbox",
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-dts-css-modules',
+  ],
 };
