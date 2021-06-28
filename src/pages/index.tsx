@@ -2,7 +2,7 @@ import React from 'react';
 import * as styles from './index.module.css';
 import 'normalize.css';
 
-import mainImg from '../images/mbp.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const IndexPage = () => {
   return (
@@ -31,7 +31,11 @@ const IndexPage = () => {
       </header>
       <main>
         <section>
-          <img src={mainImg} className={styles.mainVisual}></img>
+          <StaticImage
+            className={styles.mainVisual}
+            src="../images/mbp.jpg"
+            alt="mainvisual"
+          />
         </section>
 
         <section>
