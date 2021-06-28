@@ -2,6 +2,8 @@ import React from 'react';
 import * as styles from './index.module.css';
 import 'normalize.css';
 
+import mainImg from '../images/mbp.jpg';
+
 const IndexPage = () => {
   return (
     <>
@@ -28,7 +30,10 @@ const IndexPage = () => {
         </nav>
       </header>
       <main>
-        <section>メインビジュアル</section>
+        <section>
+          <img src={mainImg} className={styles.mainVisual}></img>
+        </section>
+
         <section>
           <h1>Hello</h1>
           <p>text</p>

@@ -2,3 +2,4 @@
 export const header: string;
 export const headerMenu: string;
 export const headerMenuItem: string;
+export const mainVisual: string;
