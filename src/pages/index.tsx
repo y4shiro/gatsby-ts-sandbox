@@ -1,6 +1,5 @@
 import React from 'react';
 import * as styles from './index.module.css';
-
 import 'normalize.css';
 
 const IndexPage = () => {
@@ -9,18 +8,30 @@ const IndexPage = () => {
       <header className={styles.header}>
         <h1>タイトルロゴ</h1>
         <nav>
-          <ul>
-            <li>メニュー</li>
-            <li>メニュー</li>
-            <li>メニュー</li>
+          <ul className={styles.headerMenu}>
+            <li>
+              <a href="#" className={styles.headerMenuItem}>
+                メニュー
+              </a>
+            </li>
+            <li>
+              <a href="#" className={styles.headerMenuItem}>
+                メニュー
+              </a>
+            </li>
+            <li>
+              <a href="#" className={styles.headerMenuItem}>
+                メニュー
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
       <main>
         <section>メインビジュアル</section>
         <section>
-          <h1 className={styles.title}>Hello</h1>
-          <p className={styles.text}>text</p>
+          <h1>Hello</h1>
+          <p>text</p>
         </section>
       </main>
       <footer>
