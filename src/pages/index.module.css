@@ -1,7 +1,14 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
 .title {
-	color:red;
+  color: red;
 }
 
 .text {
-	color: blue;
+  color: blue;
 }
