@@ -22,13 +22,21 @@
 }
 
 /* MainVisual */
+.mainVisualLayout {
+  margin-bottom: 80px;
+}
 .mainVisual {
   width: 100%;
 }
 
 /* Content */
-.content {
+.contentLayout {
   max-width: 960px;
   width: 80vw;
-  margin: 0 auto;
+  margin: 0 auto 80px;
+}
+
+/* About */
+.aboutTitle {
+  text-align: center;
 }
