@@ -39,3 +39,14 @@
 .contentTitle {
   text-align: center;
 }
+
+/* Footer */
+.footerLayout {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #333;
+  text-align: center;
+}
+.footerText {
+  color: #eee;
+}

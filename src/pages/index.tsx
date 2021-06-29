@@ -54,8 +54,8 @@ const IndexPage = () => {
           </p>
         </section>
       </main>
-      <footer>
-        <p>&copy; 2021 y4shiro</p>
+      <footer className={styles.footerLayout}>
+        <p className={styles.footerText}>&copy; 2021 y4shiro</p>
       </footer>
     </>
   );
