@@ -25,3 +25,10 @@
 .mainVisual {
   width: 100%;
 }
+
+/* Content */
+.content {
+  max-width: 960px;
+  width: 80vw;
+  margin: 0 auto;
+}
