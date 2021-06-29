@@ -5,4 +5,4 @@ export const headerMenuItem: string;
 export const mainVisualLayout: string;
 export const mainVisual: string;
 export const contentLayout: string;
-export const aboutTitle: string;
+export const contentTitle: string;
