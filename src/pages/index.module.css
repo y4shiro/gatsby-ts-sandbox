@@ -1,14 +1,3 @@
-/* Content */
-.contentLayout {
-  max-width: 960px;
-  width: 80vw;
-  margin: 0 auto 80px;
-}
-
-.contentTitle {
-  text-align: center;
-}
-
 /* Footer */
 .footerLayout {
   width: 100%;
