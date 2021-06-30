@@ -1,26 +1,3 @@
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 20px;
-  background-color: #222;
-  color: white;
-}
-.headerMenu {
-  display: flex;
-  list-style: none;
-}
-.headerMenuItem {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 16px;
-}
-.headerMenuItem:hover {
-  opacity: 0.7;
-}
-
 /* MainVisual */
 .mainVisualLayout {
   margin-bottom: 80px;

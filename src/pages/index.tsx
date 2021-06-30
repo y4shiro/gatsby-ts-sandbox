@@ -4,31 +4,12 @@ import 'normalize.css';
 
 import { StaticImage } from 'gatsby-plugin-image';
 
+import Header from '../components/Header';
+
 const IndexPage = () => {
   return (
     <>
-      <header className={styles.header}>
-        <h1>タイトルロゴ</h1>
-        <nav>
-          <ul className={styles.headerMenu}>
-            <li>
-              <a href="#" className={styles.headerMenuItem}>
-                メニュー
-              </a>
-            </li>
-            <li>
-              <a href="#" className={styles.headerMenuItem}>
-                メニュー
-              </a>
-            </li>
-            <li>
-              <a href="#" className={styles.headerMenuItem}>
-                メニュー
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section className={styles.mainVisualLayout}>
           <StaticImage
