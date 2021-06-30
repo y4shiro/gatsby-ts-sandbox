@@ -1,11 +1,3 @@
-/* MainVisual */
-.mainVisualLayout {
-  margin-bottom: 80px;
-}
-.mainVisual {
-  width: 100%;
-}
-
 /* Content */
 .contentLayout {
   max-width: 960px;

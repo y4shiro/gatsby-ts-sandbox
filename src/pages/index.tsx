@@ -5,19 +5,14 @@ import 'normalize.css';
 import { StaticImage } from 'gatsby-plugin-image';
 
 import Header from '../components/Header';
+import MainVisual from '../components/MainVisual';
 
 const IndexPage = () => {
   return (
     <>
       <Header />
       <main>
-        <section className={styles.mainVisualLayout}>
-          <StaticImage
-            className={styles.mainVisual}
-            src="../images/mbp.jpg"
-            alt="mainvisual"
-          />
-        </section>
+        <MainVisual />
 
         <section className={styles.contentLayout}>
           <h1 className={styles.contentTitle}>About</h1>
