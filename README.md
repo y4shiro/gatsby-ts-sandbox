@@ -29,6 +29,9 @@ https://github.com/jens-duttke/gatsby-plugin-dts-css-modules
 
 定義した css の補完がエディタで有効になったため、開発体験が良かった。
 
+コンポーネントが増えるに従って CSS Module も増えるので、大規模な Web アプリだと適切なディレクトリ分けや
+CSS-in-JS などに乗り換え検討を行ったほうが良さそう
+
 ### クラスの記法は BEM をそのまま適用できない
 
 BEM や他の記法で一般的なハイフンを CSS Modules では使用できない。  
@@ -39,3 +42,5 @@ JS の変数名と同じ扱いなので、キャメルケースで書く例が�
 
 - https://github.com/css-modules/css-modules
 - https://buildersbox.corp-sansan.com/entry/2020/02/10/110000
+
+そもそも、適切にコンポーネント分割が行われていれば BEM 記法不要なのでは?
