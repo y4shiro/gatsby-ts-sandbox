@@ -29,8 +29,8 @@ https://github.com/jens-duttke/gatsby-plugin-dts-css-modules
 
 定義した css の補完がエディタで有効になったため、開発体験が良かった。
 
-コンポーネントが増えるに従って CSS Module も増えるので、大規模な Web アプリだと適切なディレクトリ分けや
-CSS-in-JS などに乗り換え検討を行ったほうが良さそう
+コンポーネントが増えるに従って CSS Module も増えるので、大規模な Web アプリでは適切なディレクトリ分けや
+CSS-in-JS などに乗り換え検討を行ったほうが良さそう。
 
 ### クラスの記法は BEM をそのまま適用できない
 
@@ -44,3 +44,17 @@ JS の変数名と同じ扱いなので、キャメルケースで書く例が�
 - https://buildersbox.corp-sansan.com/entry/2020/02/10/110000
 
 そもそも、適切にコンポーネント分割が行われていれば BEM 記法不要なのでは?
+
+### 複数のクラスを CSS Modules で指定する場合
+
+下記のようにクラスを指定すると、最後に記述した `styles.text` のみ適用される事態となった。
+
+```
+<section className={styles.contentLayout, styles.text}></section>
+```
+
+`className={}` 内で値が上書きされている様子で、テンプレートリテラルで展開すると複数指定可能。
+
+```
+<section className={`${styles.contentLayout} ${styles.text}`}></section>
+```
